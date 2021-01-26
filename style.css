@@ -1,6 +1,7 @@
 * {
     border: 1px solid black;
 }
+
 .container {
     width: 80%;
     margin: auto;
@@ -13,7 +14,7 @@ ul {
 }
 
 #header {
-    background-color: #444444;
+    background-color: #000000;
     border-bottom: 5px solid #FF0000;
 }
 
@@ -33,20 +34,56 @@ ul {
 }
 
 #main {
-    min-height: 400px;
-    background: url("https://raw.githubusercontent.com/clarusway/clarusway-it-fundamentals-7-20/main/html-css/workshop/banner.jpg?token=ASDC5YMIZKZ674POS25PGJLACBFJQ") no-repeat 0 -400px;
+
+    min-height: 600px;
+    background: url("images/banner.jpg") no-repeat;
     text-align: center;
     color: white;
+    background-position: center;
+    background-size: 1300px;
+    font-family: "lobster" "satisfy";  
+    filter: grayscale(60%);  
 }
-*/
 #main h1 {
-    font-size: 55px;
+    font-size: 80px;
     margin: 100px 0 10px;
+    font-weight: bold;
 }
 #main p {
-    font-size: 20px;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 #spancolor {
     color: #FF0000 ;
+}
+
+#spancolor2 {
+    color:white;
+}
+
+#title {
+    font-family: "lobster" "satisfy";
+}
+#about {
+    background-color: black;
+    border-bottom: 5px solid;
+}
+.container2 P {
+    color: white;
+}
+.container2 h2 {
+    color: red;
+    text-align: center;
+}
+#contact {
+    background-color: black;
+    border-bottom: 5px solid;
+}
+.container3 P {
+    color: white;
+}
+.container3 h2 {
+    color: red;
+    text-align: center;
 }
