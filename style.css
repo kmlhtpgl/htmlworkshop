@@ -1,0 +1,52 @@
+* {
+    border: 1px solid black;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: #444444;
+    border-bottom: 5px solid #FF0000;
+}
+
+#header a {
+    color: white;
+    text-decoration: none;
+}
+
+#header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header li {
+    display: inline;
+    padding: 0 20px;
+}
+
+#main {
+    min-height: 400px;
+    background: url("https://raw.githubusercontent.com/clarusway/clarusway-it-fundamentals-7-20/main/html-css/workshop/banner.jpg?token=ASDC5YMIZKZ674POS25PGJLACBFJQ") no-repeat 0 -400px;
+    text-align: center;
+    color: white;
+}
+*/
+#main h1 {
+    font-size: 55px;
+    margin: 100px 0 10px;
+}
+#main p {
+    font-size: 20px;
+}
+
+#spancolor {
+    color: #FF0000 ;
+}
